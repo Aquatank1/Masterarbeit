@@ -1,0 +1,4 @@
+variant,values per window,validation 2023 RMSE (t/ha),282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%),against the headline
+headline configuration (E7),27,0.66,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,reference
+E15 plus between-cell spread,35,0.66,0.51,0.39,0.87,11.9,0.55,0.43,0.83,12.3,within noise (+0.000)
+E16 averaged cell standard deviation,27,0.66,0.52,0.4,0.86,12.2,0.56,0.44,0.83,12.5,higher RMSE (+0.010)

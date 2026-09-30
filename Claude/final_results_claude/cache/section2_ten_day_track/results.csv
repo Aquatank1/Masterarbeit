@@ -1,0 +1,4 @@
+arm,training county-years,282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%)
+"10d windows, 10d dataset",1763,0.54,0.42,0.85,12.5,,,,
+"20d windows, 10d dataset",1763,0.52,0.4,0.86,12.2,0.56,0.44,0.83,12.5
+"20d windows, 20d dataset (headline)",3181,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4

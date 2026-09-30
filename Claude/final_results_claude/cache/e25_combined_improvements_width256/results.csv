@@ -1,0 +1,4 @@
+model,validation 2023 RMSE (t/ha),282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%),against the headline
+Headline,0.66,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,reference
+Token changes combined,0.66,0.52,0.4,0.86,12.1,0.56,0.44,0.83,12.5,within noise (+0.005)
+"Token changes combined + MLP, w from 2023",0.66,0.52,0.4,0.86,12.1,0.56,0.44,0.83,12.5,within noise (+0.005)

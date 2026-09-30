@@ -1,0 +1,7 @@
+experiment,blend,w (weight of the Transformer),282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%),against the transformer (E7),w (weight of the random forest)
+E10 Transformer + random forest,w chosen on 2023,1.0,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,within noise (+0.000),
+E10 Transformer + random forest,oracle: w chosen on 2025,1.0,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,within noise (+0.000),
+E11 Transformer + MLP,w chosen on 2023,1.0,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,within noise (+0.000),
+E11 Transformer + MLP,oracle: w chosen on 2025,1.0,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,within noise (+0.000),
+random forest + MLP,w chosen on 2023,,0.59,0.46,0.82,13.9,0.61,0.48,0.8,13.6,higher RMSE (+0.084),0.0
+random forest + MLP,oracle: w chosen on 2025,,0.58,0.45,0.83,13.5,0.59,0.47,0.81,13.2,higher RMSE (+0.068),0.45

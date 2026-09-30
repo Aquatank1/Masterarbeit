@@ -1,0 +1,17 @@
+# raw data in the repository root, not part of the repository (except the county boundaries in Data_Ashape)
+/Data_*/
+!/Data_Ashape/
+# credentials: never commit them
+service-account.json
+*.key
+
+# generated soil cells (about 1 GB)
+/Claude/data_cache/wheat_soil_cells_selected/
+
+# Python and Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.partial
+
+# model weights, written by headline_weights.py (about 110 MB)
+/Claude/final_results_claude/cache/e07_weights_width256/

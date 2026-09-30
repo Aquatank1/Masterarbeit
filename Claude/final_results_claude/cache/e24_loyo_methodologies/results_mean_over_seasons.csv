@@ -1,0 +1,7 @@
+model,10-day complete RMSE (t/ha),10-day complete MAE (t/ha),10-day complete R2,10-day complete nRMSE (%),all counties RMSE (t/ha),all counties MAE (t/ha),all counties R2,all counties nRMSE (%),against the transformer (E1)
+transformer (E1),0.56,0.44,0.77,14.59,0.58,0.45,0.74,14.36,reference
+random forest (E22),0.69,0.54,0.63,18.12,0.69,0.54,0.63,16.94,higher RMSE (+0.134)
+MLP (E23),0.59,0.46,0.74,15.44,0.62,0.48,0.71,15.14,higher RMSE (+0.034)
+transformer + random forest (E24),0.56,0.44,0.77,14.59,0.58,0.45,0.74,14.36,within noise (+0.000)
+transformer + MLP (E24),0.56,0.44,0.77,14.66,0.59,0.45,0.74,14.42,within noise (+0.003)
+random forest + MLP (E24),0.6,0.47,0.74,15.46,0.62,0.48,0.71,15.18,higher RMSE (+0.035)

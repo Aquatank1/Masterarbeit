@@ -1,0 +1,3 @@
+parameterisation,282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%)
+shared key/value (headline),0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4
+separate key/value,0.51,0.39,0.87,11.9,0.55,0.43,0.83,12.4

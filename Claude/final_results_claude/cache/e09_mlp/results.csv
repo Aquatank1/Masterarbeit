@@ -1,0 +1,2 @@
+model,validation 2023 RMSE (t/ha),282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%),against the transformer (E7)
+MLP 2 x 256 (E9),0.74,0.59,0.46,0.82,13.9,0.61,0.48,0.8,13.6,higher RMSE (+0.084)

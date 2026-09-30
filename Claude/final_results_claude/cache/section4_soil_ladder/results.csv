@@ -1,0 +1,5 @@
+variant,282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%),against the register headline
+"register (headline, no soil)",0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,reference
+real soil,0.51,0.39,0.87,11.8,0.55,0.43,0.83,12.3,within noise (-0.004)
+permuted soil,0.51,0.39,0.87,11.9,0.55,0.43,0.83,12.3,within noise (-0.001)
+no cross-attention block,0.52,0.4,0.86,12.1,0.56,0.44,0.83,12.4,within noise (+0.007)

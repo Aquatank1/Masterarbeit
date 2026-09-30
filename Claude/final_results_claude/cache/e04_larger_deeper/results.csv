@@ -1,0 +1,13 @@
+configuration,parameters,models,validation 2023 RMSE (t/ha),282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%),against the headline
+"Headline: width 256, 1 layer",936707,30,0.66,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,reference
+"Variant 1: width 128, 1 layer",238979,30,0.68,0.51,0.39,0.87,12.0,0.56,0.44,0.83,12.4,within noise (+0.001)
+"Variant 2: width 512, 1 layer",3708419,30,0.65,0.51,0.4,0.86,12.0,0.56,0.44,0.83,12.4,within noise (+0.004)
+"Variant 3: width 256, 2 layers",1463811,30,0.66,0.52,0.4,0.86,12.1,0.56,0.44,0.83,12.5,within noise (+0.007)
+"Variant 4: width 256, 3 layers",1990915,30,0.67,0.52,0.4,0.86,12.2,0.56,0.44,0.83,12.5,higher RMSE (+0.010)
+E21 single model 0,57050787,1,0.68,0.54,0.42,0.85,12.6,0.57,0.44,0.82,12.8,higher RMSE (+0.030)
+E21 single model 1,57050787,1,0.66,0.54,0.42,0.85,12.6,0.57,0.45,0.82,12.8,higher RMSE (+0.029)
+E21 single model 2 (in the figure),57050787,1,0.68,0.52,0.41,0.86,12.3,0.6,0.46,0.81,13.3,higher RMSE (+0.014)
+E21 single model 3,57050787,1,0.75,0.56,0.44,0.84,13.1,0.62,0.49,0.79,13.9,higher RMSE (+0.050)
+E21 single model 4,57050787,1,0.68,0.51,0.41,0.87,11.9,0.57,0.45,0.82,12.7,within noise (+0.001)
+"single model, headline size (mean of 5)",936707,5 single,0.68,0.55,0.43,0.85,,0.6,0.47,0.81,,
+"single model, 61x parameters (mean of 5)",57050787,5 single,0.69,0.53,0.42,0.85,,0.59,0.46,0.81,,

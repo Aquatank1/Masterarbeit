@@ -1,0 +1,5 @@
+model,282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%),against E7
+baseline,0.77,0.62,0.7,18.0,0.76,0.61,0.68,16.9,higher RMSE (+0.259)
+"plain transformer, 104 statistics",0.52,0.4,0.86,12.2,0.56,0.44,0.83,12.5,higher RMSE (+0.010)
+"Transformer, headline configuration (E7)",0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,reference
+"Transformer, headline of 01",0.51,0.39,0.87,11.9,0.56,0.44,0.83,12.5,within noise (-0.002)

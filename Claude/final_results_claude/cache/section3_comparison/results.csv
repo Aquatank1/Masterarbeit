@@ -1,0 +1,10 @@
+model,validation 2023 RMSE (t/ha),282 counties RMSE (t/ha),282 counties MAE (t/ha),282 counties R2,282 counties nRMSE (%),426 counties RMSE (t/ha),426 counties MAE (t/ha),426 counties R2,426 counties nRMSE (%),against the transformer (E7)
+transformer (E7),0.66,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,reference
+random forest (E8),0.82,0.61,0.48,0.81,14.2,0.61,0.48,0.79,13.7,higher RMSE (+0.095)
+MLP (E9),0.74,0.59,0.46,0.82,13.9,0.61,0.48,0.8,13.6,higher RMSE (+0.084)
+"Transformer + random forest, w from 2023",0.66,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,within noise (+0.000)
+"Transformer + random forest, oracle w from 2025",,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,within noise (+0.000)
+"Transformer + MLP, w from 2023",0.66,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,within noise (+0.000)
+"Transformer + MLP, oracle w from 2025",,0.51,0.4,0.87,11.9,0.56,0.44,0.83,12.4,within noise (+0.000)
+"random forest + MLP, w from 2023",0.74,0.59,0.46,0.82,13.9,0.61,0.48,0.8,13.6,higher RMSE (+0.084)
+"random forest + MLP, oracle w from 2025",,0.58,0.45,0.83,13.5,0.59,0.47,0.81,13.2,higher RMSE (+0.068)

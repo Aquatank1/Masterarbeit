@@ -1,0 +1,48 @@
+soil property,importance,retained by the soil models,first of its group,duplicate of,correlation with it
+ocd_0-5cm_mean,0.206,True,True,,
+phh2o_30-60cm_mean,0.08,True,True,,
+phh2o_30_100,0.067,False,False,pH 30-60 cm,1.0
+sand_gradient_30_100_minus_0_30,0.063,True,True,,
+phh2o_60-100cm_mean,0.045,False,False,pH 30-60 cm,0.99
+phh2o_15-30cm_mean,0.041,False,False,pH 30-60 cm,0.98
+soc_0-5cm_mean,0.038,True,True,,
+clay_gradient_30_100_minus_0_30,0.033,True,True,,
+bdod_0-5cm_mean,0.032,True,True,,
+phh2o_0-5cm_mean,0.026,False,False,pH 30-60 cm,0.94
+wv0010_0-5cm_mean,0.024,True,True,,
+phh2o_5-15cm_mean,0.024,False,False,pH 30-60 cm,0.95
+nitrogen_0-5cm_mean,0.021,True,True,,
+awc_0_30,0.02,True,True,,
+phh2o_gradient_30_100_minus_0_30,0.018,True,True,,
+nitrogen_0_30,0.017,False,False,nitrogen 0-5 cm,0.93
+ocd_30-60cm_mean,0.017,True,True,,
+nitrogen_60-100cm_mean,0.015,True,True,,
+nitrogen_15-30cm_mean,0.014,False,False,nitrogen 60-100 cm,0.98
+nitrogen_30-60cm_mean,0.014,False,False,nitrogen 60-100 cm,0.99
+ocd_15-30cm_mean,0.011,True,True,,
+clay_60-100cm_mean,0.011,True,True,,
+ocd_5-15cm_mean,0.01,False,False,OCD 15-30 cm,0.91
+wv0033_5-15cm_mean,0.009,False,False,water 10 kPa 0-5 cm,0.9
+soc_60-100cm_mean,0.009,False,False,nitrogen 60-100 cm,0.85
+nitrogen_5-15cm_mean,0.009,False,False,nitrogen 60-100 cm,0.94
+wv0033_0-5cm_mean,0.008,False,False,water 10 kPa 0-5 cm,0.94
+wv1500_15-30cm_mean,0.008,True,True,,
+wv0033_15-30cm_mean,0.008,False,False,water 10 kPa 0-5 cm,0.91
+clay_30-60cm_mean,0.008,False,False,clay 60-100 cm,0.98
+ocd_0_30,0.008,False,False,OCD 15-30 cm,0.93
+wv1500_5-15cm_mean,0.007,False,False,water 1500 kPa 15-30 cm,0.96
+clay_0-5cm_mean,0.007,False,False,water 1500 kPa 15-30 cm,0.91
+soc_gradient_30_100_minus_0_30,0.006,False,False,SOC 0-5 cm,0.88
+nitrogen_gradient_30_100_minus_0_30,0.006,True,True,,
+clay_5-15cm_mean,0.006,False,False,water 1500 kPa 15-30 cm,0.91
+soc_15-30cm_mean,0.006,True,True,,
+sand_0-5cm_mean,0.006,True,True,,
+sand_5-15cm_mean,0.005,False,False,sand 0-5 cm,1.0
+clay_15-30cm_mean,0.005,False,False,water 1500 kPa 15-30 cm,0.9
+sand_15-30cm_mean,0.005,False,False,sand 0-5 cm,0.99
+wv1500_0-5cm_mean,0.005,False,False,water 1500 kPa 15-30 cm,0.94
+soc_5-15cm_mean,0.005,False,False,SOC 15-30 cm,0.91
+sand_60-100cm_mean,0.005,False,False,sand 0-5 cm,0.96
+soc_30-60cm_mean,0.004,False,False,SOC 15-30 cm,0.95
+soc_0_30,0.004,False,False,SOC 15-30 cm,0.91
+sand_30-60cm_mean,0.004,False,False,sand 0-5 cm,0.98
